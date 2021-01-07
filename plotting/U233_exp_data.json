@@ -1,0 +1,680 @@
+{
+ "format":"X4JSON.0.1.2" 
+ ,"now":"2021-01-05T13:23:31.000Z" 
+ ,"program":"EXFOR converter, by V.Zerkin, IAEA-NDS, 2007-2019 (ver.2020-05-11)" 
+ ,"input": {  "files": [ { "name":"X4R6539_x4.txt"  ,"format":"EXFOR"  ,"created":"2021-01-05T13:22:59.000Z"  } ] }
+ ,"output": { "files": [ { "name":"X4R6539_x4.txt.x4t"  ,"format":"JSON"  ,"outBib":"2"  ,"created":"2021-01-05T13:23:31.000Z"  } ] }
+ ,"datasets": [
+ 
+ {"id":"21782016"
+  ,"subent": {"id":"21782016", "updated":"20150730" }
+  ,"entry": {"id":"21782", "updated":"20150730" }
+  ,"author1":"G.Haouat+"
+  ,"year":"1982"
+  ,"ref1":{ "code":"J,NSE,81,(4),491,1982" ,"std":"J,NSE,81,491,1982"
+            ,"exp":"Jour: Nuclear Science and Engineering, Vol.81, Issue.4, p.491 (1982)"
+          }
+  ,"reaction": {
+     "code": "92-U-233(N,EL)92-U-233,,SIG"
+    ,"C4Reaction":"(N,EL),SIG"
+    ,"Proj":"N" ,"ProjZA":"1"
+    ,"Target":"92-U-233" ,"TargZA":"92233"
+    ,"MF": 3 ,"MT": 2
+    ,"ReactionType":"CS"
+    ,"Quantity":"Cross section"
+    ,"IndVarFamCode":"0 2"
+    ,"ExpectedUnits":"B"
+  }
+  ,"BIB": {
+    "INSTITUTE": {"X4KW":"INSTITUTE"  ,"exp":"Institute"
+     ,"CODES": [
+	 {"CODE":"(2FR BRC)" ,"SAN":"001"}
+     ]
+   }
+   ,"REFERENCE": {"X4KW":"REFERENCE"  ,"exp":"Reference"
+     ,"CODES": [
+	 {"CODE":"(J,NSE,81,(4),491,1982)" ,"std":"J,NSE,81,491,1982" ,"SAN":"001" ,"FREE":" Figures only."}
+	,{"CODE":"(R,NEANDC-158,27,1982)" ,"std":"R,NEANDC-158,27,1982" ,"SAN":"001" ,"FREE":" Figures only (good quality)."}
+	,{"CODE":"((R,CEA-N-2197,1981)=(R,INDC(FR)-0044,1981))" ,"SAN":"001"
+	 ,"FREE":" - prelim.\ndata given in figs."
+	 }
+	,{"CODE":"(C,79KNOX,672,1979)" ,"std":"C,79KNOX,,672,1979" ,"SAN":"001" ,"FREE":" Prelim.c-s on figures."}
+	,{"CODE":"(W,HAOUAT,198109)" ,"std":"W,HAOUAT,1981" ,"SAN":"001" ,"FREE":" Numerical data."}
+     ]
+   }
+   ,"REL_REF": {"X4KW":"REL-REF"  ,"exp":"Related reference"
+     ,"CODES": [
+	 {"CODE":"(O,20839001,G.Haouat+,R,NEANDC(E)-196,1978)" ,"SAN":"001"
+	 ,"FREE":" Diff. cr.\n                   section data at En=2.5 MeV."
+	 }
+	,{"CODE":"(O,20839001,G.Haouat+,R,NEANDC(E)-196,1978)" ,"SAN":"001"
+	 ,"FREE":" Diff. cr.\n                   section data at En=3.4 MeV."
+	 }
+	,{"CODE":"(I,,J.Lachkar+,J,PR/C,14,933,1976)" ,"SAN":"001" ,"FREE":" - Experiment. setup."}
+     ]
+   }
+   ,"AUTHOR": {"X4KW":"AUTHOR"  ,"exp":"Author"
+     ,"CODES": [
+	 {"CODE":"(G.Haouat,J.Lachkar,Ch.Lagrange,J.Jary,J.Sigaud,\n Y.Patin)"
+	 ,"SAN":"001"
+	 }
+     ]
+   }
+   ,"TITLE": {"X4KW":"TITLE"  ,"exp":"Title"
+     ,"CODES": [
+	 {"CODE":"" ,"SAN":"001"
+	 ,"FREE":" Neutron scattering cross sections for Th-232, U-233,\n U-235, U-238, Pu-239 and Pu-242 between 0.6 and 3.4\n MeV."
+	 }
+     ]
+   }
+   ,"FACILITY": {"X4KW":"FACILITY"  ,"exp":"Facility"
+     ,"CODES": [
+	 {"CODE":"(VDGT,2FR BRC)" ,"SAN":"001"
+	 ,"FREE":" 7 MV and 4 MV Tandem Van de Graaff\naccelerators, and multi-angle neutron time-of-flight\nspectrometer."
+	 }
+     ]
+   }
+   ,"INC_SOURCE": {"X4KW":"INC-SOURCE"  ,"exp":"Incident particle source"
+     ,"CODES": [
+	 {"CODE":"(P-LI7)" ,"SAN":"001"
+	 ,"FREE":" 99.8 % Li-7 target evaporated on 1 mm thick\n tantalum discs."
+	 }
+     ]
+   }
+   ,"METHOD": {"X4KW":"METHOD"  ,"exp":"Method"
+     ,"CODES": [
+	 {"CODE":"(TOF)" ,"SAN":"001" ,"FREE":" Flight path = between 6 and 10 m."}
+	,{"CODE":"(PSD)" ,"SAN":"001"
+	 ,"FREE":" Neutron-gamma-ray pulse shape discrimination to\nreduce backgrounds.\nRuns: sample in, sample out,\nwith empty container in U-233, Pu-239 measurements,\nWith container filled with water in Pu242 tests."
+	 }
+     ]
+   }
+   ,"DETECTOR": {"X4KW":"DETECTOR"  ,"exp":"Detector"
+     ,"CODES": [
+	 {"CODE":"(SCIN )" ,"SAN":"001"
+	 ,"FREE":" An array of recoil proton detectors consisted\n of 10-cm-diameter, 2.5-cm-thick NE-213 liquid\nscintillators coupled to XP-1041 photomultipliers.\n.To monitor the incident flux, the same detector was\n used at a fixed angle of 50 deg, and a distance of\n 8 m.\nNormalization of data was obtained by removing the\nscattering sample and measuring the incident neutron\nflux with the detectors placed at 0 deg."
+	 }
+     ]
+   }
+   ,"MONITOR": {"X4KW":"MONITOR"  ,"exp":"Standard"
+     ,"CODES": [
+	 {"CODE":"(3-LI-7(P,N)4-BE-7,,DA)" ,"SAN":"001"}
+     ]
+   }
+   ,"CORRECTION": {"X4KW":"CORRECTION"  ,"exp":"Corrections"
+     ,"CODES": [
+	 {"CODE":"" ,"SAN":"001"
+	 ,"FREE":"For anisotropy effects in the incident neutron flux.\nFor geometry effects in the source-sample arrangement.\nFor finite size effects in the sample including neutron\nflux attenuation by the sample, multiple scattering,\nangular resolution."
+	 }
+     ]
+   }
+   ,"ADD_RES": {"X4KW":"ADD-RES"  ,"exp":"Additional results"
+     ,"CODES": [
+	 {"CODE":"" ,"SAN":"001"
+	 ,"FREE":" Optical potential parameters and nuclear deformation\nparameters - Table III of NSE,81,(4),491,1982."
+	 }
+     ]
+   }
+   ,"ERR_ANALYS": {"X4KW":"ERR-ANALYS"  ,"exp":"Error analysis"
+     ,"CODES": [
+	 {"CODE":"(ERR-T)" ,"SAN":"001"
+	 ,"FREE":"          Relative uncertainties:\n -Counting statistics, background subtraction,\n  unfolding procedures for\n            elastic scattering              = 2 - 15 %\n            inelastic scattering            = 5 - 35 %"
+	 }
+	,{"CODE":"(ERR-1,1.,2.)" ,"SAN":"001" ,"FREE":" Dispersion of monitor indication = 1-2 %"}
+	,{"CODE":"(ERR-2,0.6,1.)" ,"SAN":"001" ,"FREE":" Uncertainty in flight-path length 0.6-1%"}
+	,{"CODE":"(ERR-3,1.,3.)" ,"SAN":"001"
+	 ,"FREE":" Sample corrections             = 1 - 3 %\n           Normalization uncertainties:"
+	 }
+	,{"CODE":"(ERR-4,,0.1)" ,"SAN":"001" ,"FREE":" Number of atoms         = less than 0.1 %"}
+	,{"CODE":"(ERR-5,1.,2.)" ,"SAN":"001" ,"FREE":" Geometric factors             = 1 -  2 %"}
+	,{"CODE":"(ERR-6,1.,5.)" ,"SAN":"001"
+	 ,"FREE":" Detector relative efficiency  = 1 -  5 %\nThe relative uncertainties were summed quadratically,\nthe normalization uncertainties were added\narithmetically.\n EN-RSL - incident neutrons overall energy resolution."
+	 }
+     ]
+   }
+   ,"HISTORY": {"X4KW":"HISTORY"  ,"exp":"History"
+     ,"CODES": [
+	 {"CODE":"(19820115C)" ,"SAN":"001" ,"FREE":" T.N."}
+	,{"CODE":"(19830418A)" ,"SAN":"001" ,"FREE":" A.P.T. Data heading in Subent 30 corrected"}
+	,{"CODE":"(19830817A)" ,"SAN":"001" ,"FREE":" ERR-T in Subent 023 corrected."}
+	,{"CODE":"(20140729A)" ,"SAN":"001"
+	 ,"FREE":" M.M. Upper -> lower case correction. Dates\nwere corrected for 4-digits year. BIB information was\nupdated. Subents 040-058 containing Pu-242 data were\nadded. EN-RSL -> EN-RSL-FW according to the comment of\nauthor G.Haouat."
+	 }
+	,{"CODE":"(20150730U)" ,"SAN":"001"
+	 ,"FREE":" SD: REL-REF was added. STATUS \"DEP\" was\nadded to Subents 8-10, 16-18, 21, 28-30, 36-42. SAMPLE\nmoved Subents 2-58. STATUS from Subent 1 deleted.\nAuthor's name corrected (Jay -> Jary).  BIB update.\nMinor corrections in all Subents."
+	 }
+	,{"CODE":"(20150730U)" ,"SAN":"016" ,"FREE":" SD: STATUS \"DEP\" was added."}
+     ]
+   }
+   ,"REACTION": {"X4KW":"REACTION"  ,"exp":"Quantity given"
+     ,"CODES": [
+	 {"CODE":"(92-U-233(N,EL)92-U-233,,SIG)" ,"SAN":"016"}
+     ]
+   }
+   ,"SAMPLE": {"X4KW":"SAMPLE"  ,"exp":"Sample"
+     ,"CODES": [
+	 {"CODE":"(92-U-233,ENR=0.96)" ,"SAN":"016"
+	 ,"FREE":" .U-233 (metallic,solid) 66.89 gr.\n 96 % of U-233 and 4 % of U-238. Enveloped with\n stainless steel and polyethylene.\n Diameter 15.0 mm, height 21.0 mm .\n Contaminants (% of total mass) - < 2% C and O .\nSamples were located at 0 deg with respect to proton\nbeam axis at a distance from neutron producing target\ncomprised between 10.2 and 11.9 cm."
+	 }
+     ]
+   }
+   ,"STATUS": {"X4KW":"STATUS"  ,"exp":"Status"
+     ,"CODES": [
+	 {"CODE":"(TABLE)" ,"SAN":"016" ,"FREE":" Data were taken from private communication"}
+	,{"CODE":"(DEP,21782011)" ,"SAN":"016" ,"FREE":" Diff. cr. section at En= 0.7 MeV"}
+	,{"CODE":"(DEP,21782012)" ,"SAN":"016" ,"FREE":" Diff. cr. section at En= 1.5 MeV"}
+     ]
+   }
+  }
+  ,"datasect": {
+    "xVariables": 1
+    ,"formula":"Y = Y(X1)"
+    ,"col": 9
+    ,"row": 2
+  }
+  ,"headers": [
+
+     { "ii":1 ,"varType":"Data" ,"varVar":"variable"
+    ,"nval":2   ,"minval":"3.46"   ,"maxval":"4.236"
+    ,"varSorted":"0.1" ,"what":"Y.Value"
+    ,"dataType":"21"  ,"numVar":"0.1"
+    ,"x4Header":"DATA" ,"SAN":"016" ,"expansion":"Data: data"
+    ,"x4Units":"B" ,"hlpUnits":"barns"
+    }
+
+   , { "ii":2 ,"varType":"Error" ,"varVar":"variable"
+    ,"nval":2   ,"minval":"0.085"   ,"maxval":"0.107"
+    ,"varSorted":"0.911" ,"what":"Y.Err+-"
+    ,"dataType":"21"  ,"numVar":"0.911"
+    ,"x4Header":"ERR-T" ,"SAN":"016" ,"expansion":"Uncertainty: +-error"
+    ,"x4Units":"B" ,"hlpUnits":"barns"
+    }
+
+   , { "ii":3 ,"varType":"Error" ,"varVar":"constant"
+    ,"nval":1   ,"minval":"1."   ,"maxval":"1."
+    ,"varSorted":"0.955" ,"what":"Y.pErr+-"
+    ,"dataType":"21"  ,"numVar":"0.955"
+    ,"x4Header":"ERR-1" ,"SAN":"016" ,"expansion":"Uncertainty: +-partial error"
+    ,"x4Units":"PER-CENT" ,"hlpUnits":"per-cent"
+    }
+
+   , { "ii":4 ,"varType":"Error" ,"varVar":"constant"
+    ,"nval":1   ,"minval":"0.6"   ,"maxval":"0.6"
+    ,"varSorted":"0.955" ,"what":"Y.pErr+-"
+    ,"dataType":"21"  ,"numVar":"0.955"
+    ,"x4Header":"ERR-2" ,"SAN":"016" ,"expansion":"Uncertainty: +-partial error"
+    ,"x4Units":"PER-CENT" ,"hlpUnits":"per-cent"
+    }
+
+   , { "ii":5 ,"varType":"Error" ,"varVar":"constant"
+    ,"nval":1   ,"minval":"1."   ,"maxval":"1."
+    ,"varSorted":"0.955" ,"what":"Y.pErr+-"
+    ,"dataType":"21"  ,"numVar":"0.955"
+    ,"x4Header":"ERR-3" ,"SAN":"016" ,"expansion":"Uncertainty: +-partial error"
+    ,"x4Units":"PER-CENT" ,"hlpUnits":"per-cent"
+    }
+
+   , { "ii":6 ,"varType":"Error" ,"varVar":"constant"
+    ,"nval":1   ,"minval":"1."   ,"maxval":"1."
+    ,"varSorted":"0.955" ,"what":"Y.pErr+-"
+    ,"dataType":"21"  ,"numVar":"0.955"
+    ,"x4Header":"ERR-5" ,"SAN":"016" ,"expansion":"Uncertainty: +-partial error"
+    ,"x4Units":"PER-CENT" ,"hlpUnits":"per-cent"
+    }
+
+   , { "ii":7 ,"varType":"Error" ,"varVar":"constant"
+    ,"nval":1   ,"minval":"1."   ,"maxval":"1."
+    ,"varSorted":"0.955" ,"what":"Y.pErr+-"
+    ,"dataType":"21"  ,"numVar":"0.955"
+    ,"x4Header":"ERR-6" ,"SAN":"016" ,"expansion":"Uncertainty: +-partial error"
+    ,"x4Units":"PER-CENT" ,"hlpUnits":"per-cent"
+    }
+
+   , { "ii":8 ,"varType":"Data" ,"varVar":"variable"
+    ,"nval":2   ,"minval":"0.7"   ,"maxval":"1.5"
+    ,"varSorted":"1.1" ,"what":"X1.Value"
+    ,"dataType":"41"  ,"numVar":"2.1"
+    ,"x4Header":"EN" ,"SAN":"016" ,"expansion":"Incident energy: energy"
+    ,"x4Units":"MEV" ,"hlpUnits":"MeV"
+    ,"BasicUnits":"EV" ,"ConvFactor":"1.e+06"
+    }
+
+   , { "ii":9 ,"varType":"Error" ,"varVar":"variable"
+    ,"nval":2   ,"minval":"8."   ,"maxval":"18."
+    ,"varSorted":"1.922" ,"what":"X1.Resl+-"
+    ,"dataType":"41"  ,"numVar":"2.922"
+    ,"x4Header":"EN-RSL-FW" ,"SAN":"016" ,"expansion":"Uncertainty: +-resolution"
+    ,"x4Units":"KEV" ,"hlpUnits":"keV"
+    ,"BasicUnits":"EV" ,"ConvFactor":"1000."
+    }
+   ]
+  ,"data": [
+	 [4.236,0.085,1.0,0.6,1.0,1.0,1.0,0.7,8.0]
+	,[3.46,0.107,1.0,0.6,1.0,1.0,1.0,1.5,18.0]
+   ]
+ }
+,
+ {"id":"L0050007"
+  ,"subent": {"id":"L0050007", "updated":"970129" }
+  ,"entry": {"id":"L0050", "updated":"20071113" }
+  ,"author1":"J.T.Caldwell+"
+  ,"year":"1980"
+  ,"ref1":{ "code":"J,PR/C,21,1215,198004" ,"std":"J,PR_C,21,1215,1980"
+            ,"exp":"Jour: Physical Review, Part C, Nuclear Physics, Vol.21, p.1215 (1980)"
+          }
+  ,"reaction": {
+     "code": "92-U-235(G,2N)92-U-233,,SIG"
+    ,"C4Reaction":"(G,2N),SIG"
+    ,"Proj":"G" ,"ProjZA":"0"
+    ,"Target":"92-U-235" ,"TargZA":"92235"
+    ,"MF": 3 ,"MT": 16
+    ,"ReactionType":"CS"
+    ,"Quantity":"Cross section"
+    ,"IndVarFamCode":"0 2"
+    ,"ExpectedUnits":"B"
+  }
+  ,"BIB": {
+    "INSTITUTE": {"X4KW":"INSTITUTE"  ,"exp":"Institute"
+     ,"CODES": [
+	 {"CODE":"(1USALRL,1USALAS)" ,"SAN":"001"}
+     ]
+   }
+   ,"REFERENCE": {"X4KW":"REFERENCE"  ,"exp":"Reference"
+     ,"CODES": [
+	 {"CODE":"(J,PR/C,21,1215,198004)" ,"std":"J,PR_C,21,1215,1980" ,"SAN":"001"}
+     ]
+   }
+   ,"AUTHOR": {"X4KW":"AUTHOR"  ,"exp":"Author"
+     ,"CODES": [
+	 {"CODE":"(J.T.CALDWELL,E.J.DOWDY,B.L.BERMAN,R.A.ALVAREZ,P.MEYER)" ,"SAN":"001"}
+     ]
+   }
+   ,"TITLE": {"X4KW":"TITLE"  ,"exp":"Title"
+     ,"CODES": [
+	 {"CODE":"" ,"SAN":"001"
+	 ,"FREE":"Giant resonance for the actinide nuclei: photoneutron\n and photofission cross sections for 235U, 236U, 238U,\n and 232Th."
+	 }
+     ]
+   }
+   ,"FACILITY": {"X4KW":"FACILITY"  ,"exp":"Facility"
+     ,"CODES": [
+	 {"CODE":"(LINAC,1USALRL)" ,"SAN":"001"}
+     ]
+   }
+   ,"INC_SOURCE": {"X4KW":"INC-SOURCE"  ,"exp":"Incident particle source"
+     ,"CODES": [
+	 {"CODE":"(QMPH,ARAD)" ,"SAN":"001"
+	 ,"FREE":" Positron annihilation in flight.\nPhoton energy resolution ranged from about 250 keV at\n energies below 10 MeV to about 325 keV at the highest\n energy (about 18 MeV)."
+	 }
+     ]
+   }
+   ,"SAMPLE": {"X4KW":"SAMPLE"  ,"exp":"Sample"
+     ,"CODES": [
+	 {"CODE":"" ,"SAN":"001"
+	 ,"FREE":"The target specifications are given in previously\n published work, J.T.Caldwell, et al., Nuc.Sci.Eng.,73\n 153 (1980)"
+	 }
+     ]
+   }
+   ,"DETECTOR": {"X4KW":"DETECTOR"  ,"exp":"Detector"
+     ,"CODES": [
+	 {"CODE":"(BF3)" ,"SAN":"001"
+	 ,"FREE":" The neutron detector consists of a 61-cm cube\n of paraffin moderator in which 48 51-cm long BF3\n proportional counters are embeded. The latter are\n arranged in an array of four coaxial rings, each\n containing 12 counters, cylindrically symmetric about\n the beam line."
+	 }
+     ]
+   }
+   ,"METHOD": {"X4KW":"METHOD"  ,"exp":"Method"
+     ,"CODES": [
+	 {"CODE":"(EXTB,RINGR)" ,"SAN":"001"
+	 ,"FREE":" Direct photoneutron detection.\nRing-ratio neutron multiplicity measurement.\nThe effective neutron detection system permits direct,\n separate and simultaneous measurements of the partial\n cross sections: (gamma,n)+(gamma,np), (gamma,2n), etc"
+	 }
+     ]
+   }
+   ,"CORRECTION": {"X4KW":"CORRECTION"  ,"exp":"Corrections"
+     ,"CODES": [
+	 {"CODE":"" ,"SAN":"001"
+	 ,"FREE":"After the recorded neutron events were corrected for\n pileup in the detector, the neutron backgrounds\n (annihilation target removed) were substracted for\n both the positron and electron measurements.\nBecause the energy spectrum of the annihilation-plus-\n Bremsstrahlung radiation differs from that of purely\n Bremsstrahlung photons, a measured correction was\n applied to the ion-chamber (beam monitor) response to\n normalize the electron data to the positron data.\nMultiplication effects in the samples were determined\n both by Monte Carlo calculations and by measurements\n with samples wrapped in thin cadmium metal foil; such\n effects necessitated small corrections to the data of\n 5, 2, 1, and 0.5% for U235, U236, U238, and Th232,\n respectively. uncertainties resulting from these\n corrections are estimated to be less than 1% in all\n cases."
+	 }
+     ]
+   }
+   ,"ANALYSIS": {"X4KW":"ANALYSIS"  ,"exp":"Analysis"
+     ,"CODES": [
+	 {"CODE":"" ,"SAN":"001"
+	 ,"FREE":"The normalized electron data then were substracted fro\n the positron data, leaving the neutron counts which\n result only from the annihilation radiation.\nThe measured sample-blank data, normalized to equal\n photon flux, were substracted from the target data to\n give the net target results.\nAfter a small correction for the neutron multiplicity\n in each ring, the data were corrected for the energy-\n dependent efficiency of the neutron detector using th\n ring-ratio result for each energy.\nThe data were converted to photoneutron cross sections\n by applying the measured ion-chamber response per\n photon, the known number of target nuclei in the beam\n and a small correction for the photon attenuation in\n the sample."
+	 }
+     ]
+   }
+   ,"ERR_ANALYS": {"X4KW":"ERR-ANALYS"  ,"exp":"Error analysis"
+     ,"CODES": [
+	 {"CODE":"(DATA-ERR1)" ,"SAN":"001" ,"FREE":" Statistical errors only."}
+	,{"CODE":"(DATA-ERR2)" ,"SAN":"001"
+	 ,"FREE":" Systematic uncertainties arising from the\n substraction of the positron-Bremsstrahlung yields,\n from the neutron-detector efficiency calibration, and\n from the photon-flux calibration are about 2, 3, and\n 5%, respectively. The final cross section values are\n subject to overall systematic uncertainties that do\n not exceed 7%."
+	 }
+     ]
+   }
+   ,"ADD_RES": {"X4KW":"ADD-RES"  ,"exp":"Additional results"
+     ,"CODES": [
+	 {"CODE":"" ,"SAN":"001"
+	 ,"FREE":"Information extracted from the data includes integrate\n cross sections and their moments, giant-resonance\n parameters, deformation and radius parameters, and\n relative and absolute neutron and fission\n probabilities."
+	 }
+     ]
+   }
+   ,"HISTORY": {"X4KW":"HISTORY"  ,"exp":"History"
+     ,"CODES": [
+	 {"CODE":"(19891207C)" ,"SAN":"001"}
+	,{"CODE":"(19950406A)" ,"SAN":"001" ,"FREE":" BIB Updated"}
+	,{"CODE":"(20071113A)" ,"SAN":"001" ,"FREE":" Dates, SUBENTs 030 - 033 addition."}
+     ]
+   }
+   ,"REACTION": {"X4KW":"REACTION"  ,"exp":"Quantity given"
+     ,"CODES": [
+	 {"CODE":"(92-U-235(G,2N)92-U-233,,SIG)" ,"SAN":"007"}
+     ]
+   }
+   ,"STATUS": {"X4KW":"STATUS"  ,"exp":"Status"
+     ,"CODES": [
+	 {"CODE":"" ,"SAN":"007" ,"FREE":"Converted from Berman compilation."}
+     ]
+   }
+  }
+  ,"datasect": {
+    "xVariables": 1
+    ,"formula":"Y = Y(X1)"
+    ,"col": 4
+    ,"row": 22
+  }
+  ,"headers": [
+
+     { "ii":1 ,"varType":"Data" ,"varVar":"variable"
+    ,"nval":21   ,"minval":"-8.1"   ,"maxval":"63.4"
+    ,"varSorted":"0.1" ,"what":"Y.Value"
+    ,"dataType":"21"  ,"numVar":"0.1"
+    ,"x4Header":"DATA" ,"SAN":"007" ,"expansion":"Data: data"
+    ,"x4Units":"MB" ,"hlpUnits":"millibarns"
+    ,"BasicUnits":"B" ,"ConvFactor":"0.001"
+    }
+
+   , { "ii":2 ,"varType":"Error" ,"varVar":"variable"
+    ,"nval":16   ,"minval":"4."   ,"maxval":"11.7"
+    ,"varSorted":"0.955" ,"what":"Y.pErr+-"
+    ,"dataType":"21"  ,"numVar":"0.955"
+    ,"x4Header":"DATA-ERR1" ,"SAN":"007" ,"expansion":"Uncertainty: +-partial error"
+    ,"x4Units":"MB" ,"hlpUnits":"millibarns"
+    ,"BasicUnits":"B" ,"ConvFactor":"0.001"
+    }
+
+   , { "ii":3 ,"varType":"Error" ,"varVar":"constant"
+    ,"nval":1   ,"minval":"7."   ,"maxval":"7."
+    ,"varSorted":"0.955" ,"what":"Y.pErr+-"
+    ,"dataType":"21"  ,"numVar":"0.955"
+    ,"x4Header":"DATA-ERR2" ,"SAN":"001" ,"expansion":"Uncertainty: +-partial error"
+    ,"x4Units":"PER-CENT" ,"hlpUnits":"per-cent"
+    }
+
+   , { "ii":4 ,"varType":"Data" ,"varVar":"variable"
+    ,"nval":22   ,"minval":"11.39"   ,"maxval":"18.26"
+    ,"varSorted":"1.1" ,"what":"X1.Value"
+    ,"dataType":"41"  ,"numVar":"2.1"
+    ,"x4Header":"EN" ,"SAN":"007" ,"expansion":"Incident energy: energy"
+    ,"x4Units":"MEV" ,"hlpUnits":"MeV"
+    ,"BasicUnits":"EV" ,"ConvFactor":"1.e+06"
+    }
+   ]
+  ,"data": [
+	 [-8.1,9.3,7.0,11.39]
+	,[10.1,10.5,7.0,11.88]
+	,[3.1,4.0,7.0,12.0]
+	,[3.1,4.0,7.0,12.25]
+	,[7.2,7.6,7.0,12.37]
+	,[-7.2,4.3,7.0,12.49]
+	,[2.1,4.0,7.0,12.74]
+	,[6.2,6.2,7.0,12.86]
+	,[17.5,4.0,7.0,12.98]
+	,[40.1,5.0,7.0,13.23]
+	,[15.5,6.4,7.0,13.35]
+	,[37.1,5.0,7.0,13.47]
+	,[24.3,5.0,7.0,13.84]
+	,[35.4,7.4,7.0,14.34]
+	,[63.4,7.5,7.0,14.83]
+	,[40.8,5.4,7.0,15.32]
+	,[40.7,7.5,7.0,15.81]
+	,[29.7,9.5,7.0,16.3]
+	,[33.4,6.5,7.0,16.79]
+	,[52.5,11.7,7.0,17.28]
+	,[28.7,11.4,7.0,17.77]
+	,[37.6,10.0,7.0,18.26]
+   ]
+ }
+,
+ {"id":"L0058006"
+  ,"subent": {"id":"L0058006", "updated":"20150127" }
+  ,"entry": {"id":"L0058", "updated":"20150127" }
+  ,"author1":"B.L.Berman+"
+  ,"year":"1986"
+  ,"ref1":{ "code":"J,PR/C,34,2201,198612" ,"std":"J,PR_C,34,2201,1986"
+            ,"exp":"Jour: Physical Review, Part C, Nuclear Physics, Vol.34, p.2201 (1986)"
+          }
+  ,"reaction": {
+     "code": "(92-U-234(G,N)92-U-233,,SIG)+(92-U-234(G,N+P)91-PA-232,,SIG)"
+    ,"C4Reaction":"((G,N),SIG)+((G,N+P),SIG)"
+    ,"Proj":"G" ,"ProjZA":"0"
+    ,"Target":"92-U-234" ,"TargZA":"92234"
+    ,"MF": 503 ,"MT": 0
+    ,"ReactionType":"CS"
+    ,"Quantity":"Cross section"
+    ,"IndVarFamCode":"0 2"
+    ,"ExpectedUnits":"B"
+  }
+  ,"BIB": {
+    "TITLE": {"X4KW":"TITLE"  ,"exp":"Title"
+     ,"CODES": [
+	 {"CODE":"" ,"SAN":"001"
+	 ,"FREE":"Photofission and photoneutron cross sections and\n photofission neutron multiplicities for 233U, 234U,\n 237Np, and 239Pu."
+	 }
+     ]
+   }
+   ,"AUTHOR": {"X4KW":"AUTHOR"  ,"exp":"Author"
+     ,"CODES": [
+	 {"CODE":"(B.L.Berman,J.T.Caldwell,E.J.Dowdy,S.S.Dietrich,\nP.Meyer,R.A.Alvarez)"
+	 ,"SAN":"001"
+	 }
+     ]
+   }
+   ,"REFERENCE": {"X4KW":"REFERENCE"  ,"exp":"Reference"
+     ,"CODES": [
+	 {"CODE":"(J,PR/C,34,2201,198612)" ,"std":"J,PR_C,34,2201,1986" ,"SAN":"001" ,"FREE":"#doi:10.1103/PhysRevC.34.2201"}
+     ]
+   }
+   ,"INSTITUTE": {"X4KW":"INSTITUTE"  ,"exp":"Institute"
+     ,"CODES": [
+	 {"CODE":"(1USALRL,1USAGWU,1USALAS)" ,"SAN":"001"}
+     ]
+   }
+   ,"FACILITY": {"X4KW":"FACILITY"  ,"exp":"Facility"
+     ,"CODES": [
+	 {"CODE":"(LINAC,1USALRL)" ,"SAN":"001"}
+     ]
+   }
+   ,"INC_SOURCE": {"X4KW":"INC-SOURCE"  ,"exp":"Incident particle source"
+     ,"CODES": [
+	 {"CODE":"(QMPH,ARAD)" ,"SAN":"001"
+	 ,"FREE":" Positron annihilation in flight.\nEnergy resolution (FWHM) ranged from about 250 keV at\n energies  below  10  MeV  to  about  325  keV at the\n highest energy (E(gamma) about 18 MeV)."
+	 }
+     ]
+   }
+   ,"DETECTOR": {"X4KW":"DETECTOR"  ,"exp":"Detector"
+     ,"CODES": [
+	 {"CODE":"(BF3)" ,"SAN":"001"
+	 ,"FREE":" Neutron 4pi detector,  consisting  of  a  61-cm\n cube of paraffin containing 48 BF3 tubes arranged in\n four concentric rings of 12 tubes each."
+	 }
+     ]
+   }
+   ,"METHOD": {"X4KW":"METHOD"  ,"exp":"Method"
+     ,"CODES": [
+	 {"CODE":"(EXTB,RINGR)" ,"SAN":"001"
+	 ,"FREE":" Direct photoneutron detection.\nRing-ratio neutron multiplicity measurement.\nA noteworthy feature of this experiment is the use of\n a remotely controlled pneumatic 8-position revolving\n sample changer, which allowed all of the samples, as\n well  as  a  blank  sample and a neutron calibration\n source,  to be  inserted  into  the  center  of  4pi\n neutron  detector  sequentially without changing the\n beam tuning or any  other  experimental  conditions.\n This   feature   enabled   relative   cross  section\n measurements to be made with a  precision  of  about\n 2%.  This  is  much better than the overall absolute\n accuracy of about 5%  typical of recent measurements\n near  the  peak of the giant resonance of medium and\n heavy nuclei."
+	 }
+     ]
+   }
+   ,"ANALYSIS": {"X4KW":"ANALYSIS"  ,"exp":"Analysis"
+     ,"CODES": [
+	 {"CODE":"" ,"SAN":"001"
+	 ,"FREE":"Photoneutrons from   each   sample   and    from    a\n sample-blank  were  measured,  both with and without\n the annihilation target present.  After the recorded\n neutron  events  were  corrected  for  pileup in the\n detector,  the  neutron  backgrounds   (annihilation\n target   removed)  were  substracted  for  both  the\n positron and electron measurements.\nBecause the energy spectrum of the annihilation-plus-\n Bremsstrahlung radiation differs from that of purely\n Bremsstrahlung photons, a measured correction was\n applied to  the  ion-chamber (beam monitor) response\n to normalize the electron data to the positron data.\nThe normalized  electron  data  then were substracted\n from the positron data,  leaving the neutron  counts\n which result only from the annihilation radiation.\nThe measured sample-blank data,  normalized to  equal\n photon  flux,  were substracted from the target data\n to give the net target results.\nAfter a small correction for the neutron multiplicity\n in each  ring,  the  data  were  corrected  for  the\n energy dependent efficiency  of the neutron detector\n using the ring-ratio result for each energy.\nThe data   were   converted   to  photoneutron  cross\n sections  by  applying  the   measured   ion-chamber\n response  per  photon,  the  known  number of target\n nuclei in the beam and a small  correction  for  the\n photon attenuation in the sample.\nA multiplicity  analysis  of  the  number of neutrons\n recordered in each beam burst allows  the  (gamma,n)\n an  (gamma,2n) yields to be extracted simultaneously\n and independently."
+	 }
+     ]
+   }
+   ,"ERR_ANALYS": {"X4KW":"ERR-ANALYS"  ,"exp":"Error analysis"
+     ,"CODES": [
+	 {"CODE":"(ERR-1)" ,"SAN":"001"
+	 ,"FREE":" subtraction  of  the  positron-bremsstrahlung\n yield (2%),"
+	 }
+	,{"CODE":"(ERR-2)" ,"SAN":"001" ,"FREE":" neutron-detector efficiency calibration (3%),"}
+	,{"CODE":"(ERR-3)" ,"SAN":"001"
+	 ,"FREE":" photon-flux calibration (5%),\nimpurities  in    the  samples   (SAMPLE)  have  been\n accounted for whenever their effect on the   results\n exceeded 1%,\nuncertainties   resulting     from   multiplication\n effects in the samples are estimated to be less than\n 2%,\nuncertainties   resulting   from  subtraction  of the\n copper  and nickel  backgrounds  from (g, 1n)  cross\n sections are estimated to be less than  5% for  233U\n and  237Np  and  less  than  10%  for  239Pu (at the\n highest energies,  for the single-photoneutron cross\n section only),\nthe final (g,F) and (g,tot) cross-section values  are\n subject to overall systematic uncertainties that do\n not exceed 7 %."
+	 }
+	,{"CODE":"(ERR-S)" ,"SAN":"006" ,"FREE":" Statistical errors."}
+     ]
+   }
+   ,"CORRECTION": {"X4KW":"CORRECTION"  ,"exp":"Corrections"
+     ,"CODES": [
+	 {"CODE":"" ,"SAN":"001"
+	 ,"FREE":"Corrected for;\n- pileup of counts in the detector,\n- ion-chamber response to electron and positron\n  produced radiation,\n- neutron multiplicities in each ring,\n- photon attenuation in the sample."
+	 }
+     ]
+   }
+   ,"COMMENT": {"X4KW":"COMMENT"  ,"exp":"Comment"
+     ,"CODES": [
+	 {"CODE":"" ,"SAN":"001"
+	 ,"FREE":"An interesting result is the complete absence of  any\n (gamma,2n) cross section for 238U and 234U.\nThe values  of nu prompt(E) for 234U agree with those\n measured with neutrons incident on 233U.\nThe parameters  of the giant dipole resonance deduced\n from the total photonuclear cross sections show that\n these  nuclei  have  large  static deformations,  as\n expected. The integrated photofission cross sections\n are    large    (as   are   the   absolute   fission\n probabilities),  and account for 60 to  80%  of  the\n total photonuclear absorption strength."
+	 }
+     ]
+   }
+   ,"HISTORY": {"X4KW":"HISTORY"  ,"exp":"History"
+     ,"CODES": [
+	 {"CODE":"(19891207C)" ,"SAN":"001"}
+	,{"CODE":"(19950407A)" ,"SAN":"001" ,"FREE":" BIB Updated."}
+	,{"CODE":"(20070914A)" ,"SAN":"001"
+	 ,"FREE":" Corrected   by  V.Varlamov: SUBENTs 026 -\n 028 added, errors DATA-ERR1 changed to ERR-S, dates."
+	 }
+	,{"CODE":"(20150127A)" ,"SAN":"001"
+	 ,"FREE":" Corrected by V.Varlamov:  STATUS, SAMPLE,\n COMMON, ERR-ANALYS, REACTION and comment  in  SUBENT\n 015  corrected,  DATA   in SUBENT  028  substituted,\n SUBENTs 033 - 037 added."
+	 }
+	,{"CODE":"(20150127A)" ,"SAN":"006"
+	 ,"FREE":" Corrected by V.Varlamov: SAMPLE,\n ERR-ANALYS."
+	 }
+     ]
+   }
+   ,"REACTION": {"X4KW":"REACTION"  ,"exp":"Quantity given"
+     ,"CODES": [
+	 {"CODE":"((92-U-234(G,N)92-U-233,,SIG)+\n(92-U-234(G,N+P)91-PA-232,,SIG))"
+	 ,"SAN":"006"
+	 ,"FREE":"Fission neutron contribution is excluded."
+	 }
+     ]
+   }
+   ,"SAMPLE": {"X4KW":"SAMPLE"  ,"exp":"Sample"
+     ,"CODES": [
+	 {"CODE":"(92-U-234,ENR=0.9984)" ,"SAN":"006"}
+	,{"CODE":"(92-U-234,ENR=0.9978)" ,"SAN":"006"
+	 ,"FREE":" 2 samples, oxide powder in lucite cylinder,  2.54 cm\n diam.:  3.325 grams  (99.84% 234U) and  12.525 grams\n (99.78% 234U)."
+	 }
+     ]
+   }
+   ,"STATUS": {"X4KW":"STATUS"  ,"exp":"Status"
+     ,"CODES": [
+	 {"CODE":"(BERMN)" ,"SAN":"006"
+	 ,"FREE":" Converted from Berman compilation.\n        Data presented in Fig 5 (b)."
+	 }
+     ]
+   }
+  }
+  ,"datasect": {
+    "xVariables": 1
+    ,"formula":"Y = Y(X1)"
+    ,"col": 6
+    ,"row": 27
+  }
+  ,"headers": [
+
+     { "ii":1 ,"varType":"Data" ,"varVar":"variable"
+    ,"nval":27   ,"minval":"-18.9"   ,"maxval":"249."
+    ,"varSorted":"0.1" ,"what":"Y.Value"
+    ,"dataType":"21"  ,"numVar":"0.1"
+    ,"x4Header":"DATA" ,"SAN":"006" ,"expansion":"Data: data"
+    ,"x4Units":"MB" ,"hlpUnits":"millibarns"
+    ,"BasicUnits":"B" ,"ConvFactor":"0.001"
+    }
+
+   , { "ii":2 ,"varType":"Error" ,"varVar":"variable"
+    ,"nval":22   ,"minval":"12."   ,"maxval":"70."
+    ,"varSorted":"0.944" ,"what":"Y.sErr+-"
+    ,"dataType":"21"  ,"numVar":"0.944"
+    ,"x4Header":"ERR-S" ,"SAN":"006" ,"expansion":"Uncertainty: +-statistical error"
+    ,"x4Units":"MB" ,"hlpUnits":"millibarns"
+    ,"BasicUnits":"B" ,"ConvFactor":"0.001"
+    }
+
+   , { "ii":3 ,"varType":"Error" ,"varVar":"constant"
+    ,"nval":1   ,"minval":"2."   ,"maxval":"2."
+    ,"varSorted":"0.955" ,"what":"Y.pErr+-"
+    ,"dataType":"21"  ,"numVar":"0.955"
+    ,"x4Header":"ERR-1" ,"SAN":"001" ,"expansion":"Uncertainty: +-partial error"
+    ,"x4Units":"PER-CENT" ,"hlpUnits":"per-cent"
+    }
+
+   , { "ii":4 ,"varType":"Error" ,"varVar":"constant"
+    ,"nval":1   ,"minval":"3."   ,"maxval":"3."
+    ,"varSorted":"0.955" ,"what":"Y.pErr+-"
+    ,"dataType":"21"  ,"numVar":"0.955"
+    ,"x4Header":"ERR-2" ,"SAN":"001" ,"expansion":"Uncertainty: +-partial error"
+    ,"x4Units":"PER-CENT" ,"hlpUnits":"per-cent"
+    }
+
+   , { "ii":5 ,"varType":"Error" ,"varVar":"constant"
+    ,"nval":1   ,"minval":"5."   ,"maxval":"5."
+    ,"varSorted":"0.955" ,"what":"Y.pErr+-"
+    ,"dataType":"21"  ,"numVar":"0.955"
+    ,"x4Header":"ERR-3" ,"SAN":"001" ,"expansion":"Uncertainty: +-partial error"
+    ,"x4Units":"PER-CENT" ,"hlpUnits":"per-cent"
+    }
+
+   , { "ii":6 ,"varType":"Data" ,"varVar":"variable"
+    ,"nval":27   ,"minval":"6.98"   ,"maxval":"18.25"
+    ,"varSorted":"1.1" ,"what":"X1.Value"
+    ,"dataType":"41"  ,"numVar":"2.1"
+    ,"x4Header":"EN" ,"SAN":"006" ,"expansion":"Incident energy: energy"
+    ,"x4Units":"MEV" ,"hlpUnits":"MeV"
+    ,"BasicUnits":"EV" ,"ConvFactor":"1.e+06"
+    }
+   ]
+  ,"data": [
+	 [57.4,70.0,2.0,3.0,5.0,6.98]
+	,[35.6,60.0,2.0,3.0,5.0,7.47]
+	,[122.0,57.0,2.0,3.0,5.0,7.96]
+	,[64.2,56.0,2.0,3.0,5.0,8.45]
+	,[89.5,53.0,2.0,3.0,5.0,8.94]
+	,[31.0,52.0,2.0,3.0,5.0,9.43]
+	,[44.7,47.0,2.0,3.0,5.0,9.92]
+	,[167.0,23.0,2.0,3.0,5.0,10.41]
+	,[240.0,15.0,2.0,3.0,5.0,10.9]
+	,[224.0,38.0,2.0,3.0,5.0,11.39]
+	,[249.0,36.0,2.0,3.0,5.0,11.88]
+	,[210.0,31.0,2.0,3.0,5.0,12.37]
+	,[179.0,12.0,2.0,3.0,5.0,12.74]
+	,[103.0,38.0,2.0,3.0,5.0,12.86]
+	,[163.0,12.0,2.0,3.0,5.0,12.98]
+	,[146.0,13.0,2.0,3.0,5.0,13.22]
+	,[87.0,36.0,2.0,3.0,5.0,13.35]
+	,[129.0,17.0,2.0,3.0,5.0,13.47]
+	,[68.0,32.0,2.0,3.0,5.0,13.84]
+	,[83.0,34.0,2.0,3.0,5.0,14.33]
+	,[61.0,34.0,2.0,3.0,5.0,14.82]
+	,[24.0,25.0,2.0,3.0,5.0,15.31]
+	,[-18.9,31.0,2.0,3.0,5.0,15.8]
+	,[-11.6,29.0,2.0,3.0,5.0,16.29]
+	,[32.0,24.0,2.0,3.0,5.0,16.78]
+	,[56.0,42.0,2.0,3.0,5.0,17.76]
+	,[40.0,26.0,2.0,3.0,5.0,18.25]
+   ]
+ }
+]
+}
