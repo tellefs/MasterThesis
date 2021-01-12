@@ -1,0 +1,118 @@
+{
+ "format":"X4JSON.0.1.2" 
+ ,"now":"2021-01-11T09:38:22.000Z" 
+ ,"program":"EXFOR converter, by V.Zerkin, IAEA-NDS, 2007-2019 (ver.2020-05-11)" 
+ ,"input": {  "files": [ { "name":"X4R8843_x4.txt"  ,"format":"EXFOR"  ,"created":"2021-01-11T09:37:34.000Z"  } ] }
+ ,"output": { "files": [ { "name":"X4R8843_x4.txt.x4t"  ,"format":"JSON"  ,"outBib":"0"  ,"created":"2021-01-11T09:38:22.000Z"  } ] }
+ ,"datasets": [
+ 
+ {"id":"L0058006"
+  ,"subent": {"id":"L0058006", "updated":"20150127" }
+  ,"entry": {"id":"L0058", "updated":"20150127" }
+  ,"author1":"B.L.Berman+"
+  ,"year":"1986"
+  ,"ref1":{ "code":"J,PR/C,34,2201,198612" ,"std":"J,PR_C,34,2201,1986"
+            ,"exp":"Jour: Physical Review, Part C, Nuclear Physics, Vol.34, p.2201 (1986)"
+          }
+  ,"reaction": {
+     "code": "(92-U-234(G,N)92-U-233,,SIG)+(92-U-234(G,N+P)91-PA-232,,SIG)"
+    ,"C4Reaction":"((G,N),SIG)+((G,N+P),SIG)"
+    ,"Proj":"G" ,"ProjZA":"0"
+    ,"Target":"92-U-234" ,"TargZA":"92234"
+    ,"MF": 503 ,"MT": 0
+    ,"ReactionType":"CS"
+    ,"Quantity":"Cross section"
+    ,"IndVarFamCode":"0 2"
+    ,"ExpectedUnits":"B"
+  }
+  ,"datasect": {
+    "xVariables": 1
+    ,"formula":"Y = Y(X1)"
+    ,"col": 6
+    ,"row": 27
+  }
+  ,"headers": [
+
+     { "ii":1 ,"varType":"Data" ,"varVar":"variable"
+    ,"nval":27   ,"minval":"-18.9"   ,"maxval":"249."
+    ,"varSorted":"0.1" ,"what":"Y.Value"
+    ,"dataType":"21"  ,"numVar":"0.1"
+    ,"x4Header":"DATA" ,"SAN":"006" ,"expansion":"Data: data"
+    ,"x4Units":"MB" ,"hlpUnits":"millibarns"
+    ,"BasicUnits":"B" ,"ConvFactor":"0.001"
+    }
+
+   , { "ii":2 ,"varType":"Error" ,"varVar":"variable"
+    ,"nval":22   ,"minval":"12."   ,"maxval":"70."
+    ,"varSorted":"0.944" ,"what":"Y.sErr+-"
+    ,"dataType":"21"  ,"numVar":"0.944"
+    ,"x4Header":"ERR-S" ,"SAN":"006" ,"expansion":"Uncertainty: +-statistical error"
+    ,"x4Units":"MB" ,"hlpUnits":"millibarns"
+    ,"BasicUnits":"B" ,"ConvFactor":"0.001"
+    }
+
+   , { "ii":3 ,"varType":"Error" ,"varVar":"constant"
+    ,"nval":1   ,"minval":"2."   ,"maxval":"2."
+    ,"varSorted":"0.955" ,"what":"Y.pErr+-"
+    ,"dataType":"21"  ,"numVar":"0.955"
+    ,"x4Header":"ERR-1" ,"SAN":"001" ,"expansion":"Uncertainty: +-partial error"
+    ,"x4Units":"PER-CENT" ,"hlpUnits":"per-cent"
+    }
+
+   , { "ii":4 ,"varType":"Error" ,"varVar":"constant"
+    ,"nval":1   ,"minval":"3."   ,"maxval":"3."
+    ,"varSorted":"0.955" ,"what":"Y.pErr+-"
+    ,"dataType":"21"  ,"numVar":"0.955"
+    ,"x4Header":"ERR-2" ,"SAN":"001" ,"expansion":"Uncertainty: +-partial error"
+    ,"x4Units":"PER-CENT" ,"hlpUnits":"per-cent"
+    }
+
+   , { "ii":5 ,"varType":"Error" ,"varVar":"constant"
+    ,"nval":1   ,"minval":"5."   ,"maxval":"5."
+    ,"varSorted":"0.955" ,"what":"Y.pErr+-"
+    ,"dataType":"21"  ,"numVar":"0.955"
+    ,"x4Header":"ERR-3" ,"SAN":"001" ,"expansion":"Uncertainty: +-partial error"
+    ,"x4Units":"PER-CENT" ,"hlpUnits":"per-cent"
+    }
+
+   , { "ii":6 ,"varType":"Data" ,"varVar":"variable"
+    ,"nval":27   ,"minval":"6.98"   ,"maxval":"18.25"
+    ,"varSorted":"1.1" ,"what":"X1.Value"
+    ,"dataType":"41"  ,"numVar":"2.1"
+    ,"x4Header":"EN" ,"SAN":"006" ,"expansion":"Incident energy: energy"
+    ,"x4Units":"MEV" ,"hlpUnits":"MeV"
+    ,"BasicUnits":"EV" ,"ConvFactor":"1.e+06"
+    }
+   ]
+  ,"data": [
+	 [57.4,70.0,2.0,3.0,5.0,6.98]
+	,[35.6,60.0,2.0,3.0,5.0,7.47]
+	,[122.0,57.0,2.0,3.0,5.0,7.96]
+	,[64.2,56.0,2.0,3.0,5.0,8.45]
+	,[89.5,53.0,2.0,3.0,5.0,8.94]
+	,[31.0,52.0,2.0,3.0,5.0,9.43]
+	,[44.7,47.0,2.0,3.0,5.0,9.92]
+	,[167.0,23.0,2.0,3.0,5.0,10.41]
+	,[240.0,15.0,2.0,3.0,5.0,10.9]
+	,[224.0,38.0,2.0,3.0,5.0,11.39]
+	,[249.0,36.0,2.0,3.0,5.0,11.88]
+	,[210.0,31.0,2.0,3.0,5.0,12.37]
+	,[179.0,12.0,2.0,3.0,5.0,12.74]
+	,[103.0,38.0,2.0,3.0,5.0,12.86]
+	,[163.0,12.0,2.0,3.0,5.0,12.98]
+	,[146.0,13.0,2.0,3.0,5.0,13.22]
+	,[87.0,36.0,2.0,3.0,5.0,13.35]
+	,[129.0,17.0,2.0,3.0,5.0,13.47]
+	,[68.0,32.0,2.0,3.0,5.0,13.84]
+	,[83.0,34.0,2.0,3.0,5.0,14.33]
+	,[61.0,34.0,2.0,3.0,5.0,14.82]
+	,[24.0,25.0,2.0,3.0,5.0,15.31]
+	,[-18.9,31.0,2.0,3.0,5.0,15.8]
+	,[-11.6,29.0,2.0,3.0,5.0,16.29]
+	,[32.0,24.0,2.0,3.0,5.0,16.78]
+	,[56.0,42.0,2.0,3.0,5.0,17.76]
+	,[40.0,26.0,2.0,3.0,5.0,18.25]
+   ]
+ }
+]
+}
