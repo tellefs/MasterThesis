@@ -1,0 +1,3 @@
+[submodule "analysis/OMPy/OCL_response_functions"]
+	path = analysis/OMPy/OCL_response_functions
+	url = git@github.com:oslocyclotronlab/OCL_response_functions.git
