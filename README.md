@@ -7,7 +7,7 @@ OMS (Oslo Method Software) analysis: analysis/OMS
 
 Comparison between OMS and OMPy in comparing.ipynb
 
-Fitting the gSF with PyROOT in fitting.ipynb
+Fitting the gSF with PyROOT in fitting_lmfit.ipynb
 
 
 
